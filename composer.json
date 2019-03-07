@@ -1,0 +1,39 @@
+{
+  "name": "2018 Nissan AC",
+  "description": "2018 Nissan AC",
+  "require": {
+    "vlucas/phpdotenv": "^2.5",
+    "twig/twig": "~1.0",
+    "klein/klein": "^2.1",
+    "aura/session": "^2.1",
+    "ircmaxell/random-lib": "^1.2",
+    "paragonie/random_compat": "^2.0.17",
+    "ramsey/uuid": "^3.8",
+    "nesbot/carbon": "^1.32",
+    "broadway/uuid-generator": "^0.4.0",
+    "catfan/medoo": "^1.5",
+    "zendframework/zend-json": "^3.1",
+    "league/csv": "^8.0",
+    "delight-im/file-upload": "^1.2",
+    "jenssegers/agent": "^2.6",
+    "guzzlehttp/guzzle": "^6.3",
+    "sendgrid/sendgrid": "~7",
+    "monolog/monolog": "^1.23"
+  },
+  "autoload": {
+    "psr-4": {
+      "App\\": "app/"
+    },
+    "files": [
+      "app/helpers/general.php"
+    ]
+  },
+  "require-dev": {
+    "nategood/commando": "*",
+    "phpunit/phpunit": "5.7.27",
+    "paquettg/php-html-parser": "^1.7"
+  },
+  "scripts": {
+    "test": "./vendor/bin/phpunit"
+  }
+}

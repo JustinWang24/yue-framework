@@ -1,0 +1,11 @@
+<!DOCTYPE html>
+<html>
+    {{ include('layout/backend/head.twig') }}
+    <body>
+    {% include 'layout/backend/top_bar.twig' %}
+    {% include 'layout/backend/nav.twig' %}
+    {% block content %}{% endblock %}
+    {% include 'layout/backend/footer.twig' %}
+    {% include 'layout/backend/js.twig' %}
+    </body>
+</html>

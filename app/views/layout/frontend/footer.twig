@@ -1,0 +1,11 @@
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/1.11.3/jquery.min.js" type="application/javascript"></script>
+<script src="http://lib.gekkocreations.com.au/bootstrap/js/bootstrap.bundle.min.js" type="application/javascript"></script>
+<script src="{{ asset('/js/chartjs/Chart.bundle.js') }}" type="application/javascript"></script>
+<script src="{{ asset('/includes/jalert/dist/jAlert.min.js') }}" type="application/javascript"></script>
+<script src="{{ asset('/includes/jalert/dist/jAlert-functions.min.js') }}" type="application/javascript"></script>
+<script src="{{ asset('/includes/jconfirm/js/jquery-confirm.js') }}" type="application/javascript"></script>
+
+{% for js in extra_js %}
+<script src="{{ js }}" type="application/javascript"></script>
+{% endfor %}
+<script src="{{ asset('/js/justin.js') }}"></script>

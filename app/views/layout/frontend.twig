@@ -1,0 +1,15 @@
+<!DOCTYPE html>
+<html>
+    {% include 'layout/frontend/head.twig' %}
+    <body>
+    {# Load the top bar #}
+    {% include 'layout/frontend/top_bar.twig' %}
+    {# Load the navigator bar #}
+    {% include 'layout/frontend/nav.twig' %}
+    {% block content %}{% endblock %}
+    {# Load the footer #}
+    {% include 'layout/frontend/footer.twig' %}
+    {# Load all js script  #}
+    {% include 'layout/frontend/js.twig' %}
+    </body>
+</html>

@@ -1,0 +1,14 @@
+<head>
+    <meta charset="utf-8">
+    <meta name="robots" content="index, follow" />
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Nissan Ambassador Club - Admin Panel</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bulma/0.7.1/css/bulma.min.css" />
+    <link rel="stylesheet" href="https://unpkg.com/element-ui/lib/theme-chalk/index.css">
+    <link rel="stylesheet" href="{{ asset('css/backend/main.css') }}" />
+    {% for css in extra_css %}
+        <link href="{{ css }}" rel="stylesheet">
+    {% endfor %}
+</head>

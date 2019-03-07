@@ -1,0 +1,25 @@
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="author" content="Destination">
+    <title>Nissan Ambassador Club - Welcome Page Dashboard</title>
+    <link href="{{ asset('/css/bootstrap.min.generalpage.css') }}" rel="stylesheet">
+    <link href="{{ asset('/css/2-col-portfolio.css') }}" rel="stylesheet">
+    <link href="{{ asset('/css/fonts.css') }}" rel="stylesheet">
+    <link href="{{ asset('/css/pie-graph/material-design-iconic-font.min.css') }}" rel="stylesheet">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">
+    <link href="{{ asset('/css/bar-graph/bar-style.css') }}" rel="stylesheet">
+    <link href='http://fonts.googleapis.com/css?family=Montserrat:400,700' rel='stylesheet' type='text/css'>
+    <link href="{{ asset('/includes/jalert/dist/jAlert.css') }}" rel="stylesheet">
+    <link href="{{ asset('/includes/jconfirm/css/jquery-confirm.css') }}" rel="stylesheet">
+    <link rel="stylesheet" href="https://unpkg.com/element-ui/lib/theme-chalk/index.css">
+    <link href="{{ asset('/css/justin.css') }}" rel="stylesheet">
+    <link rel="shortcut icon" type="image/png" href="{{ asset('/images/favicon.png') }}" />
+    {% for css in extra_css %}
+        <link href="{{ css }}" rel="stylesheet">
+    {% endfor %}
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/vue/2.5.16/vue.min.js"></script>
+    <script src="https://unpkg.com/axios/dist/axios.min.js"></script>
+    <script src="https://unpkg.com/element-ui/lib/index.js"></script>
+</head>
